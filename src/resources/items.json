@@ -5,7 +5,38 @@
      "weapon",
      "junk"
    ],
-   "min-attributes":0, "max-attributes":3,
+   "subtypes":{
+     "item":[
+       "potion",
+       "ammunition",
+       "food"
+     ],
+     "equipment":[
+       "helmet",
+       "armor",
+       "gloves"
+     ],
+     "weapon":[
+       "sword",
+       "axe",
+       "halberd",
+       "polearm",
+       "spear",
+       "gun",
+       "assault rifle",
+       "battle rifle",
+       "carbine",
+       "shotgun",
+       "frying pan"
+     ],
+     "junk":[
+       "pipe",
+       "plank",
+       "trash",
+       "junk"
+     ]
+   },
+   "min-attributes":1, "max-attributes":3,
    "attributes":{
     "strength": { "min":1, "max":10 },
     "charisma": { "min":1, "max":10 },
