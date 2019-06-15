@@ -1,0 +1,17 @@
+{
+  "types":[
+     "item",
+     "equipment",
+     "weapon",
+     "junk"
+   ],
+   "min-attributes":0, "max-attributes":3,
+   "attributes":{
+    "strength": { "min":1, "max":10 },
+    "charisma": { "min":1, "max":10 },
+    "endurance": { "min":1, "max":10 },
+    "intelligence": { "min":1, "max":10 },
+    "wisdom": { "min":1, "max":10 },
+    "luck": { "min":1, "max":10 }
+    }
+}
