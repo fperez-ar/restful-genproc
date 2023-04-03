@@ -6,6 +6,6 @@ Instructions:
 
 In docker:
  Need to expose port 5000 when running,
- docker build -t restful-genproc .
- docker run -p 5000:5000 --rm restful-genproc
- # interactive docker run restful-genproc -it -p 5000:5000 /bin/bash
+ `docker build -t restful-genproc .`
+ `docker run -p 5000:5000 --rm restful-genproc`
+ for interactive:`docker run restful-genproc -it -p 5000:5000 /bin/bash`
